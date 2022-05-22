@@ -1,0 +1,73 @@
+#particles-js {
+    background-color:#2b2c2b;
+    width:100vw;
+    height: 100vh;
+}
+.card {
+    width:28%;
+    height:fit-content;
+    background-color:whitesmoke;
+    position:fixed;
+    border-radius:20px;
+    top:48vh;
+    left:50vw;
+    transform:translate(-50%,-50%);
+    box-shadow:0px 0px 30px white;
+    opacity:0.8;
+}
+.profile_pic {
+    width:50%;
+    height:auto;
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-top:10%;
+}
+.text_container{
+    padding:10px;
+    width: fit-content;
+    margin:10px;
+    text-align: center;
+    align-items: center;
+    
+}
+h1{
+    font-family:'Playfair Display';
+    line-height:1;
+}
+hr{
+    width:70%;
+    height: 10px;
+    border:0px;
+    border-top:2px dashed rgb(135, 134, 132);
+}
+.text{
+    text-align:center;
+    font-size:100%;
+    font-family:'Raleway';
+    font-weight:400;
+}
+a {
+    text-decoration:none;
+    color:rgb(217, 118, 118);
+}
+.images_container{
+    text-align: center;
+    margin-bottom:2%;
+    margin-top:-5%;
+}
+.image_links{
+    padding:5px;
+    fill:rgb(140, 137, 137);
+}
+.image_links:hover{
+    fill:black;
+}
+footer{
+    position:fixed ;
+    width:100%;
+    height:20px;
+    padding-bottom:5px;
+    bottom:0px;
+    text-align:center;color:rgb(247, 247, 247);
+    background-color: rgb(59, 54, 54);
+}
